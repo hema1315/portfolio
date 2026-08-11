@@ -1,0 +1,394 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibrahim Mahmoud | Front-End Developer</title>
+    <link rel="shortcut icon" href="logoo.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="#home">Ibrahim<span> Mahmoud</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="nav" id="nav">
+        <a href="#home" class="active-link">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button
+        class="contact_btn"
+        onclick="
+          document
+            .getElementById('contact')
+            .scrollIntoView({ behavior: 'smooth' })
+        "
+      >
+        Contact Me
+      </button>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home_det">
+        <span class="eyebrow">Front-End Developer</span>
+        <h1>Hi, I'm <span>Ibrahim</span><br />I build for the web.</h1>
+        <p>
+          I turn designs into fast, responsive, and user-friendly interfaces
+          using <strong>React, TypeScript, Next.js, and JavaScript</strong> —
+          with a focus on clean code, smooth UX, and real API-driven products.
+        </p>
+
+        <div class="btn_home">
+          <a
+            href="https://www.linkedin.com/in/ibrahim-mahmoud-88b491335/"
+            class="btn1"
+            target="_blank"
+          >
+            Hire Me
+          </a>
+          <a href="#projects" class="btn2">View Work</a>
+        </div>
+
+        <div class="tech-stack">
+          <span class="chip"><i class="fa-brands fa-html5"></i>HTML5</span>
+          <span class="chip"><i class="fa-brands fa-css3-alt"></i>CSS3</span>
+          <span class="chip"><i class="fa-brands fa-js"></i>JavaScript</span>
+          <span class="chip"><i class="fa-brands fa-react"></i>React</span>
+          <span class="chip"><i class="fa-solid fa-code"></i> Next.js</span>
+          <span class="chip"
+            ><i class="fa-brands fa-bootstrap"></i>Bootstrap</span
+          >
+          <span class="chip"><i class="fa-solid fa-wind"></i> Tailwind</span>
+          <span class="chip"><i class="fa-brands fa-node"></i>Node.js</span>
+          <span class="chip"><i class="fa-brands fa-git-alt"></i>Git</span>
+          <span class="chip"><i class="fa-brands fa-figma"></i>Figma</span>
+          <span class="chip"
+            ><i class="fa-solid fa-map-location-dot"></i>GIS</span
+          >
+        </div>
+      </div>
+
+      <div class="home_img">
+        <div class="home_img_glow"></div>
+        <img src="6.jpg" alt="Ibrahim Mahmoud" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about_img">
+        <img src="6.jpg" alt="Ibrahim Mahmoud" />
+      </div>
+      <div class="about_det">
+        <span class="eyebrow">About Me</span>
+        <h1>Building clean, <span>usable</span> interfaces.</h1>
+        <p>
+          I'm a motivated Front-End Developer passionate about building modern
+          and responsive web applications with
+          <strong>React, TypeScript, Next.js, and JavaScript</strong>. I focus
+          on writing maintainable code and delivering smooth experiences across
+          every device.
+        </p>
+        <p>
+          I enjoy learning new technologies and building real-world projects
+          that solve practical problems — from full auth flows to product
+          catalogs backed by real APIs.
+        </p>
+
+        <div class="about_badges">
+          <span class="badge">React &amp; TypeScript</span>
+          <span class="badge">MERN Stack</span>
+          <span class="badge">UI/UX Focused</span>
+          <span class="badge">GIS Student</span>
+        </div>
+
+        <p class="about_cta">
+          Currently looking for an opportunity as a Front-End Developer to grow
+          and contribute to real products.
+        </p>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <span class="eyebrow center">What I Do</span>
+      <h1 class="title">Services</h1>
+      <div class="skills">
+        <div class="skill_card">
+          <div class="skill_icon">
+            <i class="bx bxl-figma"></i>
+          </div>
+          <h2>UI / UX Design</h2>
+          <p>
+            Clean, simple, user-friendly interfaces — designed with real
+            usability in mind, not just visuals.
+          </p>
+        </div>
+        <div class="skill_card">
+          <div class="skill_icon">
+            <i class="bx bx-code"></i>
+          </div>
+          <h2>Frontend Development</h2>
+          <p>
+            Responsive, modern, interactive web apps built with React,
+            TypeScript, Next.js, and Tailwind — clean and maintainable.
+          </p>
+        </div>
+        <div class="skill_card">
+          <div class="skill_icon">
+            <i class="bx bx-code-curly"></i>
+          </div>
+          <h2>Backend &amp; APIs</h2>
+          <p>
+            Comfortable connecting front-ends to real APIs and building simple
+            Node.js/Express services with MongoDB.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <span class="eyebrow center">Recent Work</span>
+      <h1 class="title">Projects</h1>
+      <div class="projects_list">
+        <div class="project">
+          <div class="project_img">
+            <img src="Screenshot_1.png" alt="Hema Movies" />
+          </div>
+          <div class="project_body">
+            <h3>Hema Movies</h3>
+            <p>
+              Browse movies and build a personal watchlist using the TMDb API,
+              with a clean and smooth interface.
+            </p>
+            <div class="project_links">
+              <a
+                class="r2"
+                href="https://github.com/hema1315/Hema-Movies"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a
+                class="r1"
+                href="https://hema-movies.vercel.app/"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project_img">
+            <img src="Screenshot_3.png" alt="Hema Store" />
+          </div>
+          <div class="project_body">
+            <h3>Hema Store</h3>
+            <p>
+              E-commerce platform to browse products, manage a cart, and place
+              orders through a product API.
+            </p>
+            <div class="project_links">
+              <a
+                class="r2"
+                href="https://github.com/hema1315/Hema-Store"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a
+                class="r1"
+                href="https://hhh-sepia.vercel.app/"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project project_featured">
+          <div class="project_img">
+            <img src="Screenshot.png" alt="ShopZone" />
+          </div>
+          <div class="project_body">
+            <h3>ShopZone</h3>
+            <p>
+              A full-featured e-commerce store built with React and TypeScript —
+              search, cart, wishlist, reviews, and a complete auth system with
+              password recovery.
+            </p>
+            <div class="project_links">
+              <a
+                class="r2"
+                href="https://github.com/hema1315/ShopZone"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a
+                class="r1"
+                href="https://shop-zone-bice.vercel.app/"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project_img">
+            <img src="Screenshot_8.png" alt="Homyz" />
+          </div>
+          <div class="project_body">
+            <h3>Homyz</h3>
+            <p>
+              A responsive real estate landing page presenting property listings
+              in a modern, well-structured layout.
+            </p>
+            <div class="project_links">
+              <a
+                class="r2"
+                href="https://github.com/hema1315/Real-Estate"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a
+                class="r1"
+                href="https://real-state-five-sage.vercel.app/"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project_img">
+            <img src="Screenshot_9.png" alt="Postit" />
+          </div>
+          <div class="project_body">
+            <h3>Postit</h3>
+            <p>
+              Create, edit, and comment on posts, manage your profile, and
+              switch between light and dark mode.
+            </p>
+            <div class="project_links">
+              <a
+                class="r2"
+                href="https://github.com/hema1315/Postit"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a
+                class="r1"
+                href="https://postit-chi-lime.vercel.app/"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project_img">
+            <img src="Screenshot_10.png" alt="Pray" />
+          </div>
+          <div class="project_body">
+            <h3>Pray</h3>
+            <p>
+              A responsive prayer times app built with React, showing daily
+              schedules with smooth, intuitive interactions.
+            </p>
+            <div class="project_links">
+              <a
+                class="r2"
+                href="https://github.com/hema1315/Pray"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a
+                class="r1"
+                href="https://pray-three.vercel.app/"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="footer">
+      <span class="eyebrow center">Get In Touch</span>
+      <h1 class="title">Let's Work Together</h1>
+      <p class="footer_lead">
+        Have a project in mind or an opening for a Front-End role? I'd love to
+        hear from you.
+      </p>
+
+      <a href="mailto:hemamahmoud131517@gmail.com" class="email_btn">
+        <i class="bx bx-envelope"></i>
+        hemamahmoud131517@gmail.com
+      </a>
+
+      <div class="social_icons_footer">
+        <a href="https://github.com/hema1315" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ibrahim-mahmoud-88b491335/"
+          target="_blank"
+        >
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/ibrahim.mahmoud.226325/?locale=ar_AR"
+          target="_blank"
+        >
+          <i class="bx bxl-facebook-square"></i>
+        </a>
+        <a href="https://www.instagram.com/ibrahim_mahmoud_17/" target="_blank">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+      </div>
+
+      <ul class="footer_nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+
+      <p class="copyright">© 2026 Ibrahim Mahmoud. All rights reserved.</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
