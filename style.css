@@ -466,6 +466,7 @@ nav a.active-link::after {
 .project_img {
   width: 100%;
   overflow: hidden;
+  object-fit: cover;
 }
 .project_img img {
   display: block;
