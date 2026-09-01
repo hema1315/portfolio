@@ -91,7 +91,7 @@ const navObserver = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.5 },
+  { threshold: 0, rootMargin: "-50% 0px -50% 0px" }, // ← التعديل هنا بدل threshold: 0.5
 );
 
 document
