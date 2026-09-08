@@ -460,6 +460,7 @@ nav a.active-link::after {
   height: 1.7rem;
   stroke-width: 1.8;
   color: var(--main-color);
+  fill: var(--main-color);
   flex-shrink: 0;
   transition: transform 0.25s ease;
 }
