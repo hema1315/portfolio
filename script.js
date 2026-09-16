@@ -97,3 +97,11 @@ const navObserver = new IntersectionObserver(
 document
   .querySelectorAll("section[id]")
   .forEach((section) => navObserver.observe(section));
+
+document.querySelectorAll(".project_compare").forEach((box) => {
+  const range = box.querySelector(".compare_range");
+  if (!range) return;
+  const update = () => box.style.setProperty("--pos", range.value + "%");
+  range.addEventListener("input", update);
+  update();
+});
